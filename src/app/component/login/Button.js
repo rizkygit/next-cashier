@@ -25,7 +25,7 @@ const SectionButton = () => {
 
     return (
         <div className="flex justify-evenly">
-            <Link href="/admin" passHref>
+            <Link href="/dashboard" passHref>
             <Button htmlType="submit">Login</Button>
             </Link>
             <span>

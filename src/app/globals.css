@@ -10,7 +10,7 @@ body {
     sans-serif;
 }
 
-#app-loading {
+/* #app-loading {
   position: relative;
   top: 45vh;
   margin: 0 auto;
@@ -52,4 +52,4 @@ body {
   40% {
     box-shadow: 0 2em 0 0;
   }
-}
+} */

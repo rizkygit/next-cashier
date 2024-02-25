@@ -1,9 +1,8 @@
 "use client"
-import React, { Children, useState } from 'react';
-import { Breadcrumb, Layout, theme } from 'antd';
-import NavigationItems from './NavigationItems';
-
-const { Header, Content, Footer, Sider } = Layout;
+import React, { useState } from 'react';
+import { Layout, theme } from 'antd';
+const { Header, Content, Sider } = Layout;
+import Menu from './Menu';
 
 const AntdLayout = ({ children, BodyBg, ContainerBg }) => {
     const [collapsed, setCollapsed] = useState(false);
@@ -11,10 +10,10 @@ const AntdLayout = ({ children, BodyBg, ContainerBg }) => {
         token: { colorBgContainer, borderRadiusLG },
     } = theme.useToken();
     return (
-        <Layout style={{ minHeight: '100vh' }}>
+        <Layout style={{ minHeight: '100dvh' }}>
             <Sider collapsible collapsed={collapsed} onCollapse={(value) => setCollapsed(value)}>
-                <div className="demo-logo-vertical" />
-                <NavigationItems />
+                <div />
+                <Menu />
             </Sider>
             <Layout style={{ backgroundColor: BodyBg }}>
                 <Header style={{ padding: 0, background: colorBgContainer, }} />
