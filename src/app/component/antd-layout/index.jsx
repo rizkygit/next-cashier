@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Layout, theme } from 'antd';
 const { Header, Content, Sider } = Layout;
-import Menu from './Menu';
+import Menu from './MenuItems';
 
 const AntdLayout = ({ children, BodyBg, ContainerBg }) => {
     const [collapsed, setCollapsed] = useState(false);

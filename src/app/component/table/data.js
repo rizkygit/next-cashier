@@ -1,15 +1,17 @@
 const dataSource = [
     {
         key: '1',
-        name: 'Mike',
-        age: 32,
-        address: '10 Downing Street',
+        product_name: 'kecap',
+        product_price: 1500,
+        stock: 10,
+        category: 'sauce',
     },
     {
         key: '2',
-        name: 'John',
-        age: 42,
-        address: '10 Downing Street',
+        product_name: 'garam',
+        product_price: 5000,
+        stock: 40,
+        category: 'condiment',
     },
 ];
 
@@ -20,14 +22,19 @@ const columns = [
         key: 'product_name',
     },
     {
-        title: 'Age',
-        dataIndex: 'age',
-        key: 'age',
+        title: 'Price',
+        dataIndex: 'product_price',
+        key: 'product_price',
     },
     {
-        title: 'Address',
-        dataIndex: 'address',
-        key: 'address',
+        title: 'Stock',
+        dataIndex: 'stock',
+        key: 'stock',
+    },
+    {
+        title: 'Category',
+        dataIndex: 'category',
+        key: 'category',
     },
 ];
 

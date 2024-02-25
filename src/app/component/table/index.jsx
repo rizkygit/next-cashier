@@ -1,7 +1,7 @@
 "use server"
 import React from 'react'
 import { dataSource, columns } from './data'
-import { Space, Table, Tag } from 'antd';
+import { Table } from 'antd';
 
 
 const AntdTable = () => {
