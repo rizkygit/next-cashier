@@ -10,6 +10,53 @@ body {
     sans-serif;
 }
 
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60px;
+  height: 45px;
+  background: #002140;
+  color: rgb(0, 126, 244);
+  border-radius: 6px;
+}
+
+/* :where(.css-dev-only-do-not-override-1xg9z9n).ant-menu-dark */
+/* .layout-sider {
+  background-color: rgb(0, 126, 244);
+}
+
+.trigger {
+  background-color: rgb(2, 66, 126);
+} */
+
+/* .ant-menu-horizontal {
+  height: 40px;
+}
+
+.ant-menu-dark .ant-menu-item {
+  background-color: rgb(52, 0, 52);
+}
+
+.ant-menu-dark .ant-menu-popup {
+  background-color: rgb(52, 0, 52);
+}
+
+.ant-menu-dark .ant-menu-submenu-popup {
+  background-color: rgb(28, 0, 28);
+}
+
+.ant-menu-dark .ant-menu-item-selected {
+  background-color: rgb(77, 0, 77);
+} */
 /* #app-loading {
   position: relative;
   top: 45vh;

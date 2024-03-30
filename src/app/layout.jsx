@@ -7,8 +7,8 @@ import { AntdRegistry } from '@ant-design/nextjs-registry';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "spp",
-  description: "website spp sekolah",
+  title: "cashier",
+  description: "website cashier using nextjs",
 };
 
 const RootLayout = ({ children }) => { 

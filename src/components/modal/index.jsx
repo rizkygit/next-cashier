@@ -1,5 +1,4 @@
 import { Modal, Button } from 'antd';
-import { useState } from 'react';
 
 const modalStyle = {
     width: '480px',
@@ -9,16 +8,12 @@ const modalStyle = {
     paddingBottom: '0px',
 };
 
-const Popup = ({ text, children, title, type, footer, modalOpen, setModal }) => {
-    const openModal = () => {
-        setModal(true);
-    }
-
+const Popup = ({ text, children, title, buttonType, footer, open, onClick, icon }) => {
     return (
         <>
             <Modal
                 title={title}
-                open={modalOpen}
+                open={open}
                 style={modalStyle}
                 footer={footer}
                 centered
@@ -26,7 +21,7 @@ const Popup = ({ text, children, title, type, footer, modalOpen, setModal }) => 
             >
                 {children}
             </Modal>
-            <Button type={type} onClick={openModal}>{text}</Button>
+            <Button type={buttonType} onClick={onClick} icon={icon}>{text}</Button>
         </>
     );
 }

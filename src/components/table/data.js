@@ -1,10 +1,12 @@
-const dataSource = [
+// import { button } from 'antd';
+const dataSources = [
     {
         key: '1',
         product_name: 'kecap',
         product_price: 1500,
         stock: 10,
         category: 'sauce',
+        // action: <button type="primary">restock</button>,
     },
     {
         key: '2',
@@ -12,6 +14,7 @@ const dataSource = [
         product_price: 5000,
         stock: 40,
         category: 'condiment',
+        // action: <button type="primary">restock</button>,
     },
 ];
 
@@ -36,6 +39,11 @@ const columns = [
         dataIndex: 'category',
         key: 'category',
     },
+    // {
+    //     title: 'Action',
+    //     dataIndex: 'action',
+    //     key: 'action',
+    // },
 ];
 
-export { dataSource, columns };
+export { dataSources, columns };

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Menu } from 'antd'
 import { useRouter, usePathname } from 'next/navigation';
-import { PieChartOutlined, } from '@ant-design/icons';
+import { PieChartOutlined } from '@ant-design/icons';
 
 function getItem(label, key, icon, childern) {
     return {
@@ -13,9 +13,9 @@ function getItem(label, key, icon, childern) {
 }
 
 const items = [
-    getItem('dashboard', '/dashboard', <PieChartOutlined />, 'null'),
-    getItem('products', '/products', <PieChartOutlined />, 'null'),
-    getItem('orders', '/orders', <PieChartOutlined />, 'null'),
+    getItem('dashboard', '/admin/dashboard', <PieChartOutlined />, 'null'),
+    getItem('products', '/admin/products', <PieChartOutlined />, 'null'),
+    getItem('orders', '/admin/orders', <PieChartOutlined />, 'null'),
 ];
 
 const MenuItems = () => {

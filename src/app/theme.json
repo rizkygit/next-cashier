@@ -1,0 +1,15 @@
+{
+  "components": {
+    "Layout": {
+      "siderBg": "rgb(0, 126, 244)",
+      "triggerBg": "rgb(2, 66, 126)"
+    },
+    "Menu": {
+      "horizontalLineHeight": "40px",
+      "darkItemBg": "rgb(52, 0, 52)",
+      "darkPopupBg": "rgb(52, 0, 52)",
+      "darkSubMenuItemBg": "rgb(28, 0, 28)",
+      "darkItemSelectedBg": "rgb(77, 0, 77)"
+    }
+  }
+}
