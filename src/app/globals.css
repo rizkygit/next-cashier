@@ -29,6 +29,9 @@ body {
   border-radius: 6px;
 }
 
+/* .itemActiveBg {
+  background-color: #432423;
+} */
 /* :where(.css-dev-only-do-not-override-1xg9z9n).ant-menu-dark */
 /* .layout-sider {
   background-color: rgb(0, 126, 244);
